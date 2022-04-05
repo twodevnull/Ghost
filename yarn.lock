@@ -1812,7 +1812,7 @@
     utils-copy-error "^1.0.1"
     uuid "^8.3.2"
 
-"@tryghost/errors@1.2.8", "@tryghost/errors@^1.0.0", "@tryghost/errors@^1.1.0", "@tryghost/errors@^1.1.1", "@tryghost/errors@^1.2.1", "@tryghost/errors@^1.2.3", "@tryghost/errors@^1.2.5", "@tryghost/errors@^1.2.7":
+"@tryghost/errors@1.2.8", "@tryghost/errors@^1.0.0", "@tryghost/errors@^1.1.0", "@tryghost/errors@^1.1.1", "@tryghost/errors@^1.2.1", "@tryghost/errors@^1.2.3", "@tryghost/errors@^1.2.5", "@tryghost/errors@^1.2.7", "@tryghost/errors@^1.2.8":
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.8.tgz#b4ba1c31831216222be332ee7a37d9c4a376ac2a"
   integrity sha512-O8CUS4SHsBYFc6/7yUDJ5yk0vhcdzPxFiISgrFhzptOd79ZdXwk9c8Pz5uSDUXPaCqKaWMYLTjSof30IxVvvAA==
@@ -2100,24 +2100,10 @@
     jsonwebtoken "^8.5.1"
     lodash "^4.17.11"
 
-"@tryghost/members-stripe-service@0.9.4":
+"@tryghost/members-stripe-service@0.9.4", "@tryghost/members-stripe-service@^0.9.3":
   version "0.9.4"
   resolved "https://registry.yarnpkg.com/@tryghost/members-stripe-service/-/members-stripe-service-0.9.4.tgz#2e07cfa31dddba1d2bdde2d6b7449bc2c4bc6118"
   integrity sha512-22e7IlNx3D49YK4bdi3wknQ0Tz1nW9zqpq4MIlbLYjGeC8zBR1v1LSMG7NyQR8chErgp8u51xnC6YyQgDd9iAw==
-  dependencies:
-    "@tryghost/debug" "^0.1.4"
-    "@tryghost/domain-events" "^0.1.9"
-    "@tryghost/errors" "^1.2.5"
-    "@tryghost/logging" "^2.0.5"
-    "@tryghost/member-events" "^0.4.1"
-    leaky-bucket "^2.2.0"
-    lodash "^4.17.21"
-    stripe "^8.174.0"
-
-"@tryghost/members-stripe-service@^0.9.3":
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/@tryghost/members-stripe-service/-/members-stripe-service-0.9.3.tgz#e5f6995f77c8bbee8ba839bc6f02298c680b8057"
-  integrity sha512-r8n2qrUtkGLE7xAUkVYhCwpo4cfxtiPDa/MiBg9ycvRg81Azz33i9mQpZjiKJlAVn9IzsKaEfQBKioIFun0YyQ==
   dependencies:
     "@tryghost/debug" "^0.1.4"
     "@tryghost/domain-events" "^0.1.9"
@@ -2190,14 +2176,14 @@
   resolved "https://registry.yarnpkg.com/@tryghost/mw-session-from-token/-/mw-session-from-token-0.1.28.tgz#6cddffa53e07a19c13cfc5a72071e59f42e65719"
   integrity sha512-1BXi+twPQVBbfm4NMRa9Ms5mHHZg0P8Z4oq1s0tnkJ+iNIWol2fkuJ5m6Mi6qXiWD0lPqpOL/as/aBGJsyoe7A==
 
-"@tryghost/nodemailer@0.3.17":
-  version "0.3.17"
-  resolved "https://registry.yarnpkg.com/@tryghost/nodemailer/-/nodemailer-0.3.17.tgz#6014d5ba758b1c8e2d89ce66abff2d6d02d6963d"
-  integrity sha512-YKOe8Dk/6cDumOS4oW9ck4oKE6oEERCqVWsd0UISs0y3livErSZBOMxgqFYST9DuXnTrs2m6ajfthl5BoL+V9Q==
+"@tryghost/nodemailer@0.3.18":
+  version "0.3.18"
+  resolved "https://registry.yarnpkg.com/@tryghost/nodemailer/-/nodemailer-0.3.18.tgz#6ec6f8e5b53025d5e29048c08824e55476bc1fb5"
+  integrity sha512-a7OstIXv5E+tVnx2m0GCRKXStM1wEwWQvB6I784HrZ/8Ucl5cNrLqt+mdzDGXx7mUieuLYCuunbY8lXzz1Yffw==
   dependencies:
     "@aws-sdk/client-ses" "^3.31.0"
     "@aws-sdk/credential-provider-node" "^3.31.0"
-    "@tryghost/errors" "^1.2.7"
+    "@tryghost/errors" "^1.2.8"
     nodemailer "^6.6.3"
     nodemailer-direct-transport "^3.3.2"
     nodemailer-stub-transport "^1.1.0"
